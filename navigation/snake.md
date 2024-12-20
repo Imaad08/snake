@@ -164,8 +164,8 @@ permalink: /snake/
                     <label>
                         Walls:
                         <select onchange="updateWalls(this.value)">
-                            <option value="false" ${wallsEnabled ? 'selected' : ''}>On</option>
-                            <option value="true" ${!wallsEnabled ? 'selected' : ''}>Off</option>
+                            <option value="true" ${wallsEnabled ? 'selected' : ''}>On</option>
+                            <option value="false" ${!wallsEnabled ? 'selected' : ''}>Off</option>
                         </select>
                     </label>
                 </div>
